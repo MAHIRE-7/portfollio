@@ -17,6 +17,9 @@
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#volunteering">Leadership</a>
+                <button id="contrast-toggle" class="contrast-btn" title="Toggle High Contrast">
+                    <i class="fas fa-adjust"></i>
+                </button>
             </div>
         </div>
     </nav>
@@ -154,5 +157,22 @@
             <p>&copy; 2024 <%= portfolio.name %>. Built with Node.js & Docker</p>
         </div>
     </footer>
+
+    <script>
+        // Contrast toggle functionality
+        const contrastToggle = document.getElementById('contrast-toggle');
+        const body = document.body;
+        
+        // Check for saved contrast preference
+        if (localStorage.getItem('high-contrast') === 'true') {
+            body.classList.add('high-contrast');
+        }
+        
+        contrastToggle.addEventListener('click', () => {
+            body.classList.toggle('high-contrast');
+            const isHighContrast = body.classList.contains('high-contrast');
+            localStorage.setItem('high-contrast', isHighContrast);
+        });
+    </script>
 </body>
 </html>
