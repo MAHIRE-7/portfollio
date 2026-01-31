@@ -57,15 +57,19 @@ export default function Contact() {
                         <div className="space-y-8 mt-12 lg:mt-0">
                             <div>
                                 <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Email</h4>
-                                <a href="mailto:fawazv.business@gmail.com" className="text-xl md:text-3xl font-bold hover:text-secondary transition-colors break-all">fawazv.business@gmail.com</a>
+                                <a href="mailto:manodayahire@gmail.com" className="text-xl md:text-3xl font-bold hover:text-secondary transition-colors break-all">manodayahire@gmail.com</a>
+                            </div>
+                            <div>
+                                <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Location</h4>
+                                <p className="text-xl md:text-2xl font-bold">Pune, Maharashtra</p>
                             </div>
                             <div>
                                 <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Socials</h4>
                                 <div className="flex gap-6">
-                                    <a href="https://www.linkedin.com/in/mohammed-fawaz-216314280/" className="hover:text-secondary transition-colors text-foreground" aria-label="LinkedIn">
+                                    <a href="https://www.linkedin.com/in/manoday-ahire/" className="hover:text-secondary transition-colors text-foreground" aria-label="LinkedIn">
                                         <Linkedin size={28} strokeWidth={1.5} />
                                     </a>
-                                    <a href="https://github.com/fawazv/" className="hover:text-secondary transition-colors text-foreground" aria-label="GitHub">
+                                    <a href="https://github.com/manodayahire/" className="hover:text-secondary transition-colors text-foreground" aria-label="GitHub">
                                         <Github size={28} strokeWidth={1.5} />
                                     </a>
                                 </div>

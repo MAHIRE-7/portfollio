@@ -29,7 +29,7 @@ export default function About() {
             className="space-y-8 order-2 lg:order-1"
           >
             <RevealHeader className="text-5xl md:text-7xl font-bold uppercase tracking-tighter text-foreground leading-[0.9]">
-              About <br /> <span className="text-secondary font-serif italic tracking-normal">The Dev</span>
+              About <br /> <span className="text-secondary font-serif italic tracking-normal">The Engineer</span>
             </RevealHeader>
 
             <motion.div
@@ -40,10 +40,10 @@ export default function About() {
               transition={{ delay: 0.3, duration: 0.8 }}
             >
               <p>
-                I'm a self-taught Full Stack Developer who pivoted from a background in Commerce to the world of Code.
+                Cloud Infrastructure Engineer Intern at Excellon Softwares with strong hands-on experience in AWS cloud services, Linux system administration, Docker, Kubernetes, and CI/CD pipelines.
               </p>
               <p>
-                My journey is defined by a relentless curiosity—from studying accounting to debugging distributed systems. I build scalable applications with a focus on performance, clean architecture, and cinematic user experiences.
+                Actively working on cloud infrastructure provisioning, containerized workloads, monitoring and logging using Grafana, Prometheus, and ELK, along with security and performance optimization. Focused on building highly available, scalable, and secure cloud environments.
               </p>
             </motion.div>
 

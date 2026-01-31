@@ -10,28 +10,34 @@ gsap.registerPlugin(ScrollTrigger);
 
 const journey = [
   {
-    year: "2026 - Present",
-    role: "Full Stack Developer",
-    company: "Freelance & Open Source",
-    description: "Architecting enterprise-scale applications like 'Elite Hotel' (Microservices) and 'Nxtcart' (E-commerce). Expertise in Next.js, Docker, Kubernetes, and Cloud Architecture."
+    year: "Oct 2024 - Present",
+    role: "Infrastructure Engineer Intern",
+    company: "Excellon Software",
+    description: "Manage and support production Azure cloud infrastructure for internal and client-facing applications. Perform daily cloud health checks, monitoring using Azure Monitor and logging tools. Support deployment and monitoring of cloud applications ensuring high availability and performance."
   },
   {
-    year: "2024",
-    role: "The Pivot to Tech",
-    company: "Self-Taught Journey",
-    description: "Graduated with a Bachelor of Commerce but discovered a passion for problem-solving. Dedicated 1000+ hours to mastering the MERN stack and software engineering fundamentals."
+    year: "Jun 2024 - Jul 2024",
+    role: "Cloud Engineer Intern",
+    company: "Acmegrade & Devskillhub",
+    description: "Worked on solution architecture and cloud infrastructure design. Gained hands-on experience with cloud services and architectural best practices. Enhanced skills in cloud platform management and infrastructure automation."
   },
   {
-    year: "2020 - 2023",
-    role: "Bachelor of Commerce",
-    company: "Calicut University",
-    description: "Graduated with a specialization in Co-operation. Developed a strong analytical mindset and understanding of business logic."
+    year: "Oct 2023 - Nov 2023",
+    role: "Cloud Engineer",
+    company: "Pantechelearning",
+    description: "Worked with Amazon Cloud Services, gaining foundational experience in cloud computing and AWS platform services. Built expertise in EC2, S3, VPC, and other core AWS services."
   },
   {
-    year: "2018 - 2020",
-    role: "Computer Applications",
-    company: "GHSS Tirurangadi",
-    description: "Higher Secondary in Commerce with Computer Applications. Early exposure to programming concepts which sparked my initial interest in tech."
+    year: "Nov 2022 - Jun 2025",
+    role: "Bachelor of Computer Engineering",
+    company: "Dr. D. Y. Patil College of Engineering",
+    description: "CGPA: 8.69. Leading student initiatives as President and organizing technical events. Strong focus on cloud technologies and DevOps practices."
+  },
+  {
+    year: "Aug 2019 - Jul 2022",
+    role: "Diploma in Computer Engineering",
+    company: "Government Polytechnic, Nandurbar",
+    description: "Percentage: 85.26%. Built strong foundation in computer engineering fundamentals and programming concepts."
   }
 ];
 

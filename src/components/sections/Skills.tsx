@@ -3,12 +3,16 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  "JavaScript (ES6+)", "TypeScript", "React.js", "Next.js", "Node.js", "Express.js",
-  "HTML5", "CSS3", "Tailwind CSS", "Vite", "Material UI", "Shadcn UI",
-  "Bootstrap", "Framer Motion", "Redux Toolkit", "Context API",
-  "Nginx", "MongoDB", "NoSQL", "PostgreSQL", "Mongoose",
-  "Docker", "RabbitMQ", "AWS EC2", "AWS S3", "Google Cloud",
-  "Firebase", "Git", "Postman", "Figma"
+  "AWS", "Azure", "Google Cloud Platform", "Docker", "Kubernetes", "Jenkins",
+  "Terraform", "GitLab", "GitHub", "Git", "EC2", "S3", "IAM", "RDS", "VPC", "EKS",
+  "SQS", "Auto Scaling", "Elastic Load Balancing", "Nginx", "Apache2", "Tomcat", "IIS",
+  "Artifactory", "Infrastructure as Code", "CI/CD", "Site Reliability Engineering", "Microservices",
+  "3-Tier Architecture", "Solution Architecture", "Cloud Infrastructure", "MySQL", "DynamoDB",
+  "Database Management", "Python", "Shell Scripting", "YAML", "JSON", "CloudWatch",
+  "CloudTrail", "Grafana", "Azure Monitor", "Security Groups", "KMS", "WAF",
+  "Network Security", "Microsoft Entra ID", "Subnets", "Route Tables", "NAT Gateway",
+  "Virtual Networks", "Load Balancing", "Linux", "Red Hat Linux", "Windows",
+  "Linux Server", "Maven", "Gradle", "AWS Q"
 ];
 
 export default function Skills() {

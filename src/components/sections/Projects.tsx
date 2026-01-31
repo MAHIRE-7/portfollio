@@ -12,44 +12,68 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "Elite Hotel",
-    category: "Full Stack System",
+    title: "GrapeVault on AWS",
+    category: "Cloud Infrastructure",
     image: "/images/projects/elite-hotel.png",
-    description: "Microservices-based Hotel Management System with secure authentication, billing, and integrated payments using Node.js, Express, and Docker.",
+    description: "Successfully deployed and managed GrapeVault on AWS infrastructure achieving 99.99% uptime and 30% cost reduction. Automated deployments with CloudFormation and implemented robust security measures.",
     liveUrl: "",
-    githubUrl: "https://github.com/fawazv/Elite-hotel"
+    githubUrl: ""
   },
   {
-    title: "Nxtcart",
-    category: "E-commerce Platform",
+    title: "CET Mock Test Platform",
+    category: "Cloud Hosting Solution",
     image: "/images/projects/nxtcart.png",
-    description: "Full-stack e-commerce application with customer features, authentication used Auth.js, payments via Stripe/PayPal, and an admin dashboard.",
-    liveUrl: "https://nxt-cart.vercel.app/",
-    githubUrl: "https://github.com/fawazv/nxt-cart"
+    description: "Deployed robust hosting solution with auto-start/stop EC2 scripts for cost optimization. Implemented role-based access with user and admin dashboards using AWS EC2, Apache, RDS MySQL, and S3.",
+    liveUrl: "",
+    githubUrl: ""
   },
   {
-    title: "Dropbox Clone",
-    category: "Cloud Architecture",
+    title: "3-Tier Quiz Application (Quizzy)",
+    category: "Microservices Architecture",
     image: "/images/projects/dropbox-clone.png",
-    description: "High-performance file storage app built with Next.js and Firebase featuring drag-and-drop uploads, smart caching, and secure authentication.",
-    liveUrl: "https://dropbox-clone-peach-seven.vercel.app/",
-    githubUrl: "https://github.com/fawazv/dropbox-clone"
+    description: "Interactive quiz application with separated presentation, logic, and data layers. Built with REST APIs and relational database for scalable architecture using Node.js, Express, MySQL, and AWS.",
+    liveUrl: "",
+    githubUrl: ""
   },
   {
-    title: "Blog Platform",
-    category: "Distributed System",
+    title: "3-Tier Web Application Infrastructure IaC",
+    category: "Infrastructure as Code",
     image: "/images/projects/blog-platform.png",
-    description: "Scalable blog platform with Node.js, Express, MongoDB, RabbitMQ, and Docker, featuring microservices architecture and CI/CD pipelines.",
+    description: "Terraform configurations for three-tier application architecture on AWS. Modular and maintainable infrastructure with networking, compute, and database resources.",
     liveUrl: "",
-    githubUrl: "https://github.com/fawazv/Blog-microservice"
+    githubUrl: ""
   },
   {
-    title: "Pixabay Gallery",
-    category: "Frontend Experience",
+    title: "E-commerce Microservices on AWS EKS",
+    category: "Kubernetes & Cloud-Native",
     image: "/images/projects/pixabay-gallery.png",
-    description: "Responsive image gallery built with React, Vite, and Tailwind CSS. Features infinite scroll, masonry layout, and advanced search.",
+    description: "Production-ready microservices architecture demonstrating enterprise-grade patterns with Kubernetes and AWS services following cloud-native best practices.",
     liveUrl: "",
-    githubUrl: "https://github.com/fawazv/1.-react-tailwind-pixabay-gallery"
+    githubUrl: ""
+  },
+  {
+    title: "Wanderlust DevSecOps Pipeline",
+    category: "DevOps & Security",
+    image: "/images/projects/elite-hotel.png",
+    description: "MERN travel blog with comprehensive DevSecOps pipeline including automated testing, security scanning, and deployment automation using Docker and CI/CD.",
+    liveUrl: "",
+    githubUrl: ""
+  },
+  {
+    title: "Docker Learning Projects",
+    category: "Containerization",
+    image: "/images/projects/nxtcart.png",
+    description: "Comprehensive collection demonstrating containerization concepts from beginner Dockerfiles to advanced multi-container setups with database integrations.",
+    liveUrl: "",
+    githubUrl: ""
+  },
+  {
+    title: "Todo List App with Amazon Q",
+    category: "AWS AI Platform",
+    image: "/images/projects/dropbox-clone.png",
+    description: "Lightweight task management application demonstrating CRUD operations and web development fundamentals, developed using AWS Q Agentic AI Platform.",
+    liveUrl: "",
+    githubUrl: ""
   }
 ];
 
