@@ -109,7 +109,7 @@ export default function Hero() {
         {/* Dark Mode: Liquid Metal */}
         <div className="absolute inset-0 z-0 hidden dark:block">
           <Image
-            src="/darkmode.png"
+            src="/darkmodem.png"
             alt="Liquid Metal Abstract"
             fill
             sizes="100vw"
