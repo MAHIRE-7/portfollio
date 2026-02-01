@@ -58,7 +58,14 @@ export default function Navbar() {
         transition={{ duration: 0.8 }}
       >
         <div className="container mx-auto flex items-center justify-between">
-          
+          {/* Logo */}
+          <Link
+            href="/"
+            onClick={handleLogoClick}
+            className="text-xl font-bold tracking-tighter uppercase z-50 text-foreground dark:text-white"
+          >
+           
+          </Link>
 
           {/* Desktop Nav */}
           <div className="hidden xl:flex items-center gap-8">
