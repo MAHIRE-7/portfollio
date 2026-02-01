@@ -143,34 +143,94 @@ export default function Journey() {
             <div className="timeline-line-fill w-full h-full bg-secondary origin-top shadow-[0_0_15px_var(--secondary)]" />
           </div>
 
-          <div className="space-y-24 pl-0 md:pl-12">
-            {allJourney.map((item, index) => (
-              <div
-                key={index}
-                className="journey-item relative flex flex-col gap-4 border-l-2 md:border-l-0 border-black/10 dark:border-white/10 pl-8 md:pl-0"
-              >
-                {/* Mobile Glow Border */}
-                <div className="absolute left-[-2px] top-0 h-full w-[2px] bg-secondary md:hidden origin-top scale-y-0 transition-transform duration-1000" />
-
-                <div className="relative">
-                  {/* Desktop Dot */}
-                  <div className="absolute -left-[54px] top-2 w-3 h-3 bg-background border-2 border-secondary rounded-full hidden md:block z-10 box-content shadow-[0_0_10px_var(--secondary)]" />
-
-                  <span className="text-secondary font-bold text-sm uppercase tracking-widest block mb-1">
-                    {item.year}
-                  </span>
-                  <h3 className="text-3xl md:text-4xl font-bold uppercase tracking-tight mb-2">
-                    {item.role}
-                  </h3>
-                  <p className="text-lg font-medium text-muted-foreground uppercase mb-4 tracking-wide">
-                    {item.company}
-                  </p>
-                  <p className="text-muted-foreground leading-relaxed max-w-lg">
-                    {item.description}
-                  </p>
+          {/* Experience Section */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold uppercase tracking-tight mb-8 text-secondary">Experience</h3>
+            <div className="space-y-16 pl-0 md:pl-12">
+              {experience.map((item, index) => (
+                <div
+                  key={index}
+                  className="journey-item relative flex flex-col gap-4 border-l-2 md:border-l-0 border-black/10 dark:border-white/10 pl-8 md:pl-0"
+                >
+                  <div className="absolute left-[-2px] top-0 h-full w-[2px] bg-secondary md:hidden origin-top scale-y-0 transition-transform duration-1000" />
+                  <div className="relative">
+                    <div className="absolute -left-[54px] top-2 w-3 h-3 bg-background border-2 border-secondary rounded-full hidden md:block z-10 box-content shadow-[0_0_10px_var(--secondary)]" />
+                    <span className="text-secondary font-bold text-sm uppercase tracking-widest block mb-1">
+                      {item.year}
+                    </span>
+                    <h4 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2">
+                      {item.role}
+                    </h4>
+                    <p className="text-lg font-medium text-muted-foreground uppercase mb-4 tracking-wide">
+                      {item.company}
+                    </p>
+                    <p className="text-muted-foreground leading-relaxed max-w-lg">
+                      {item.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          {/* Volunteering Section */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold uppercase tracking-tight mb-8 text-secondary">Leadership & Volunteering</h3>
+            <div className="space-y-16 pl-0 md:pl-12">
+              {volunteering.map((item, index) => (
+                <div
+                  key={index}
+                  className="journey-item relative flex flex-col gap-4 border-l-2 md:border-l-0 border-black/10 dark:border-white/10 pl-8 md:pl-0"
+                >
+                  <div className="absolute left-[-2px] top-0 h-full w-[2px] bg-secondary md:hidden origin-top scale-y-0 transition-transform duration-1000" />
+                  <div className="relative">
+                    <div className="absolute -left-[54px] top-2 w-3 h-3 bg-background border-2 border-secondary rounded-full hidden md:block z-10 box-content shadow-[0_0_10px_var(--secondary)]" />
+                    <span className="text-secondary font-bold text-sm uppercase tracking-widest block mb-1">
+                      {item.year}
+                    </span>
+                    <h4 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2">
+                      {item.role}
+                    </h4>
+                    <p className="text-lg font-medium text-muted-foreground uppercase mb-4 tracking-wide">
+                      {item.company}
+                    </p>
+                    <p className="text-muted-foreground leading-relaxed max-w-lg">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Education Section */}
+          <div>
+            <h3 className="text-2xl font-bold uppercase tracking-tight mb-8 text-secondary">Education</h3>
+            <div className="space-y-16 pl-0 md:pl-12">
+              {education.map((item, index) => (
+                <div
+                  key={index}
+                  className="journey-item relative flex flex-col gap-4 border-l-2 md:border-l-0 border-black/10 dark:border-white/10 pl-8 md:pl-0"
+                >
+                  <div className="absolute left-[-2px] top-0 h-full w-[2px] bg-secondary md:hidden origin-top scale-y-0 transition-transform duration-1000" />
+                  <div className="relative">
+                    <div className="absolute -left-[54px] top-2 w-3 h-3 bg-background border-2 border-secondary rounded-full hidden md:block z-10 box-content shadow-[0_0_10px_var(--secondary)]" />
+                    <span className="text-secondary font-bold text-sm uppercase tracking-widest block mb-1">
+                      {item.year}
+                    </span>
+                    <h4 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2">
+                      {item.role}
+                    </h4>
+                    <p className="text-lg font-medium text-muted-foreground uppercase mb-4 tracking-wide">
+                      {item.company}
+                    </p>
+                    <p className="text-muted-foreground leading-relaxed max-w-lg">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
