@@ -73,7 +73,7 @@ const certifications = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="py-24 bg-accent/10 border-y border-black/5 dark:border-white/5">
+    <section id="certifications" className="py-24 bg-accent/10 border-y border-black/5 dark:border-white/5 mt-20">
       <div className="container mx-auto px-6">
         <RevealHeader className="text-4xl md:text-6xl font-bold uppercase tracking-tighter mb-16 text-center">
           Certifications

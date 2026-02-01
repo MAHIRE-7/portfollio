@@ -142,13 +142,13 @@ export default function Journey() {
           className="w-full md:w-1/2 flex flex-col justify-center relative"
         >
           <RevealHeader className="text-4xl md:text-6xl font-bold uppercase tracking-tighter mb-8 md:mb-0 text-foreground/20">
-            Experience & Education
+            
           </RevealHeader>
           <div className="w-24 h-1 bg-secondary mt-4 hidden md:block" />
         </div>
 
         {/* Right Column - Scrolling Content */}
-        <div ref={rightRef} className="w-full md:w-1/2 flex flex-col justify-center py-20 md:py-32 relative">
+        <div ref={rightRef} className="w-full md:w-1/2 flex flex-col justify-center py-20 md:py-32 relative mb-20">
 
           {/* Thread/Timeline Line */}
           <div className="absolute left-0 top-24 bottom-20 w-[2px] bg-black/5 dark:bg-white/5 hidden md:block overflow-hidden rounded-full">
@@ -157,6 +157,7 @@ export default function Journey() {
 
           {/* Experience Section */}
           <div className="mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter mb-8 text-foreground/20">My Journey</h2>
             <h3 className="text-2xl font-bold uppercase tracking-tight mb-8 text-secondary">Experience</h3>
             <div className="space-y-16 pl-0 md:pl-12">
               {experience.map((item, index) => (
