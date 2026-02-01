@@ -141,9 +141,6 @@ export default function Journey() {
           ref={leftRef}
           className="w-full md:w-1/2 flex flex-col justify-center relative"
         >
-          <RevealHeader className="text-4xl md:text-6xl font-bold uppercase tracking-tighter mb-8 md:mb-0 text-foreground/20">
-            
-          </RevealHeader>
           <div className="w-24 h-1 bg-secondary mt-4 hidden md:block" />
         </div>
 
