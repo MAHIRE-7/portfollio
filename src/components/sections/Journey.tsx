@@ -10,22 +10,34 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experience = [
   {
-    year: "Oct 2024 - Present",
+    year: "Oct 2025 - Present",
     role: "Infrastructure Engineer Intern",
     company: "Excellon Software",
-    description: "Manage and support production Azure cloud infrastructure for internal and client-facing applications. Perform daily cloud health checks, monitoring using Azure Monitor and logging tools. Support deployment and monitoring of cloud applications ensuring high availability and performance."
+    description: "Manage and support production Azure cloud infrastructure for internal and client-facing applications. Work with Azure cloud, Grafana monitoring, and infrastructure automation tools. Perform daily cloud health checks and support deployment processes."
+  },
+  {
+    year: "Jun 2025 - Oct 2025",
+    role: "Jr. Cloud Engineer Intern",
+    company: "Cravita Technologies India Private Limited",
+    description: "Worked with Amazon Web Services (AWS) and DevOps practices. Gained hands-on experience in cloud infrastructure management and deployment automation processes."
   },
   {
     year: "Jun 2024 - Jul 2024",
     role: "Cloud Engineer Intern",
-    company: "Acmegrade & Devskillhub",
-    description: "Worked on solution architecture and cloud infrastructure design. Gained hands-on experience with cloud services and architectural best practices. Enhanced skills in cloud platform management and infrastructure automation."
+    company: "Acmegrade",
+    description: "Focused on solution architecture and cloud infrastructure design. Gained experience in designing scalable cloud solutions and architectural best practices for enterprise applications."
+  },
+  {
+    year: "Jun 2024 - Jul 2024",
+    role: "Cloud Engineer Intern",
+    company: "Devskillhub Training and Consultancy",
+    description: "Enhanced skills in cloud services and cloud infrastructure development. Worked on cloud platform management and infrastructure automation projects."
   },
   {
     year: "Oct 2023 - Nov 2023",
     role: "Cloud Engineer",
     company: "Pantechelearning",
-    description: "Worked with Amazon Cloud Services, gaining foundational experience in cloud computing and AWS platform services. Built expertise in EC2, S3, VPC, and other core AWS services."
+    description: "Worked with cloud services and gained foundational experience in cloud computing platforms. Built expertise in cloud service management and deployment strategies."
   }
 ];
 

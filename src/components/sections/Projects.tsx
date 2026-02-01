@@ -12,6 +12,22 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    title: "Cloud-Native Document Conversion Platform",
+    category: "DevSecOps Pipeline",
+    image: "/images/projects/devsecops.jpeg",
+    description: "Cloud-native document conversion platform with complete DevSecOps CI/CD pipeline using Jenkins, Docker, Kubernetes, Trivy, SonarQube, and GitOps-based deployment via Argo CD.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/wordtopdf"
+  },
+  {
+    title: "Wanderlust DevSecOps Pipeline",
+    category: "DevOps & Security",
+    image: "/images/projects/wanderlust.png",
+    description: "MERN travel blog with comprehensive DevSecOps pipeline including automated testing, security scanning, and deployment automation using Docker and CI/CD.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/Wanderlust-Mega-Project"
+  },
+  {
     title: "GrapeVault on AWS",
     category: "Cloud Infrastructure",
     image: "/images/projects/gvaws.png",
@@ -28,36 +44,12 @@ const projects = [
     githubUrl: ""
   },
   {
-    title: "3-Tier Quiz Application (Quizzy)",
-    category: "Microservices Architecture",
-    image: "/images/projects/quizzy.jpeg",
-    description: "Interactive quiz application with separated presentation, logic, and data layers. Built with REST APIs and relational database for scalable architecture using Node.js, Express, MySQL, and AWS.",
+    title: "Kubernetes Projects",
+    category: "Container Orchestration",
+    image: "/images/projects/k8s.jpeg",
+    description: "Hands-on Kubernetes projects covering Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, and multi-node clusters using Minikube and KIND.",
     liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/Quizzy"
-  },
-  {
-    title: "3-Tier Web Application Infrastructure IaC",
-    category: "Infrastructure as Code",
-    image: "/images/projects/wai.jpeg",
-    description: "Terraform configurations for three-tier application architecture on AWS. Modular and maintainable infrastructure with networking, compute, and database resources.",
-    liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/3-Tier-App-Terraform-Code"
-  },
-  {
-    title: "Cloud-Native Document Conversion Platform",
-    category: "DevSecOps Pipeline",
-    image: "/images/projects/devsecops.jpeg",
-    description: "Cloud-native document conversion platform with complete DevSecOps CI/CD pipeline using Jenkins, Docker, Kubernetes, Trivy, SonarQube, and GitOps-based deployment via Argo CD.",
-    liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/wordtopdf"
-  },
-  {
-    title: "E-commerce Microservices on AWS EKS",
-    category: "Kubernetes & Cloud-Native",
-    image: "/images/projects/eks.jpeg",
-    description: "Production-ready microservices architecture demonstrating enterprise-grade patterns with Kubernetes and AWS services following cloud-native best practices.",
-    liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/microservice-architecture"
+    githubUrl: "https://github.com/MAHIRE-7/Kubernetes-projects"
   },
   {
     title: "Docker Learning Projects",
@@ -68,20 +60,28 @@ const projects = [
     githubUrl: "https://github.com/MAHIRE-7/docker-projects"
   },
   {
-    title: "Wanderlust DevSecOps Pipeline",
-    category: "DevOps & Security",
-    image: "/images/projects/wanderlust.png",
-    description: "MERN travel blog with comprehensive DevSecOps pipeline including automated testing, security scanning, and deployment automation using Docker and CI/CD.",
+    title: "E-commerce Microservices on AWS EKS",
+    category: "Kubernetes & Cloud-Native",
+    image: "/images/projects/eks.jpeg",
+    description: "Production-ready microservices architecture demonstrating enterprise-grade patterns with Kubernetes and AWS services following cloud-native best practices.",
     liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/Wanderlust-Mega-Project"
+    githubUrl: "https://github.com/MAHIRE-7/microservice-architecture"
   },
   {
-    title: "Kubernetes Projects",
-    category: "Container Orchestration",
-    image: "/images/projects/k8s.jpeg",
-    description: "Hands-on Kubernetes projects covering Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, and multi-node clusters using Minikube and KIND.",
+    title: "3-Tier Web Application Infrastructure IaC",
+    category: "Infrastructure as Code",
+    image: "/images/projects/wai.jpeg",
+    description: "Terraform configurations for three-tier application architecture on AWS. Modular and maintainable infrastructure with networking, compute, and database resources.",
     liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/Kubernetes-projects"
+    githubUrl: "https://github.com/MAHIRE-7/3-Tier-App-Terraform-Code"
+  },
+  {
+    title: "3-Tier Quiz Application (Quizzy)",
+    category: "Microservices Architecture",
+    image: "/images/projects/quizzy.jpeg",
+    description: "Interactive quiz application with separated presentation, logic, and data layers. Built with REST APIs and relational database for scalable architecture using Node.js, Express, MySQL, and AWS.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/Quizzy"
   },
   {
     title: "Todo List App with Amazon Q",
