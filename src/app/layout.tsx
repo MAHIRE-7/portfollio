@@ -31,6 +31,7 @@ import CustomCursor from "@/components/ui/cursor";
 
 import Background from "@/components/ui/background";
 import SmoothScroll from "@/components/ui/smooth-scroll";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({
   children,
@@ -55,6 +56,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
