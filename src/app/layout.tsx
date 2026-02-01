@@ -23,8 +23,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Premium Developer Portfolio",
-  description: "A cinematic developer portfolio.",
+  title: "Manoday Ahire - Cloud & DevOps Engineer",
+  description: "Cloud Infrastructure Engineer with expertise in AWS, Azure, Docker, Kubernetes, and CI/CD pipelines. Building scalable and secure cloud environments.",
 };
 
 import CustomCursor from "@/components/ui/cursor";

@@ -14,7 +14,7 @@ const projects = [
   {
     title: "GrapeVault on AWS",
     category: "Cloud Infrastructure",
-    image: "/images/projects/elite-hotel.png",
+    image: "/images/projects/gvaws.png",
     description: "Successfully deployed and managed GrapeVault on AWS infrastructure achieving 99.99% uptime and 30% cost reduction. Automated deployments with CloudFormation and implemented robust security measures.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/GrapeVault"
@@ -22,7 +22,7 @@ const projects = [
   {
     title: "CET Mock Test Platform",
     category: "Cloud Hosting Solution",
-    image: "/images/projects/nxtcart.png",
+    image: "/images/projects/cet.jpeg",
     description: "Deployed robust hosting solution with auto-start/stop EC2 scripts for cost optimization. Implemented role-based access with user and admin dashboards using AWS EC2, Apache, RDS MySQL, and S3.",
     liveUrl: "",
     githubUrl: ""
@@ -30,7 +30,7 @@ const projects = [
   {
     title: "3-Tier Quiz Application (Quizzy)",
     category: "Microservices Architecture",
-    image: "/images/projects/dropbox-clone.png",
+    image: "/images/projects/quizzy.jpeg",
     description: "Interactive quiz application with separated presentation, logic, and data layers. Built with REST APIs and relational database for scalable architecture using Node.js, Express, MySQL, and AWS.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/Quizzy"
@@ -38,7 +38,7 @@ const projects = [
   {
     title: "3-Tier Web Application Infrastructure IaC",
     category: "Infrastructure as Code",
-    image: "/images/projects/blog-platform.png",
+    image: "/images/projects/wai.jpeg",
     description: "Terraform configurations for three-tier application architecture on AWS. Modular and maintainable infrastructure with networking, compute, and database resources.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/3-Tier-App-Terraform-Code"
@@ -46,7 +46,7 @@ const projects = [
   {
     title: "Cloud-Native Document Conversion Platform",
     category: "DevSecOps Pipeline",
-    image: "/images/projects/pixabay-gallery.png",
+    image: "/images/projects/devsecops.jpeg",
     description: "Cloud-native document conversion platform with complete DevSecOps CI/CD pipeline using Jenkins, Docker, Kubernetes, Trivy, SonarQube, and GitOps-based deployment via Argo CD.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/wordtopdf"
@@ -54,7 +54,7 @@ const projects = [
   {
     title: "E-commerce Microservices on AWS EKS",
     category: "Kubernetes & Cloud-Native",
-    image: "/images/projects/elite-hotel.png",
+    image: "/images/projects/eks.jpeg",
     description: "Production-ready microservices architecture demonstrating enterprise-grade patterns with Kubernetes and AWS services following cloud-native best practices.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/microservice-architecture"
@@ -62,7 +62,7 @@ const projects = [
   {
     title: "Docker Learning Projects",
     category: "Containerization",
-    image: "/images/projects/nxtcart.png",
+    image: "/images/projects/docker.jpeg",
     description: "Comprehensive collection demonstrating containerization concepts from beginner Dockerfiles to advanced multi-container setups with database integrations.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/docker-projects"
@@ -70,7 +70,7 @@ const projects = [
   {
     title: "Wanderlust DevSecOps Pipeline",
     category: "DevOps & Security",
-    image: "/images/projects/dropbox-clone.png",
+    image: "/images/projects/wanderlust.png",
     description: "MERN travel blog with comprehensive DevSecOps pipeline including automated testing, security scanning, and deployment automation using Docker and CI/CD.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/Wanderlust-Mega-Project"
@@ -78,7 +78,7 @@ const projects = [
   {
     title: "Kubernetes Projects",
     category: "Container Orchestration",
-    image: "/images/projects/blog-platform.png",
+    image: "/images/projects/k8s.jpeg",
     description: "Hands-on Kubernetes projects covering Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, and multi-node clusters using Minikube and KIND.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/Kubernetes-projects"
@@ -86,7 +86,7 @@ const projects = [
   {
     title: "Todo List App with Amazon Q",
     category: "AWS AI Platform",
-    image: "/images/projects/pixabay-gallery.png",
+    image: "/images/projects/todo.jpega",
     description: "Lightweight task management application demonstrating CRUD operations and web development fundamentals, developed using AWS Q Agentic AI Platform.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/todo-list-app"

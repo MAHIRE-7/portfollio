@@ -64,7 +64,7 @@ export default function Navbar() {
             onClick={handleLogoClick}
             className="text-xl font-bold tracking-tighter uppercase z-50 text-foreground dark:text-white"
           >
-           
+            Manoday Ahire
           </Link>
 
           {/* Desktop Nav */}
