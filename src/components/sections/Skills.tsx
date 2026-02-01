@@ -3,16 +3,14 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  "AWS", "Azure", "Google Cloud Platform", "Docker", "Kubernetes", "Jenkins",
-  "Terraform", "GitLab", "GitHub", "Git", "EC2", "S3", "IAM", "RDS", "VPC", "EKS",
-  "SQS", "Auto Scaling", "Elastic Load Balancing", "Nginx", "Apache2", "Tomcat", "IIS",
-  "Artifactory", "Infrastructure as Code", "CI/CD", "Site Reliability Engineering", "Microservices",
-  "3-Tier Architecture", "Solution Architecture", "Cloud Infrastructure", "MySQL", "DynamoDB",
-  "Database Management", "Python", "Shell Scripting", "YAML", "JSON", "CloudWatch",
-  "CloudTrail", "Grafana", "Azure Monitor", "Security Groups", "KMS", "WAF",
-  "Network Security", "Microsoft Entra ID", "Subnets", "Route Tables", "NAT Gateway",
-  "Virtual Networks", "Load Balancing", "Linux", "Red Hat Linux", "Windows",
-  "Linux Server", "Maven", "Gradle", "AWS Q"
+  "AWS", "Azure", "Docker", "Kubernetes", "Jenkins",
+  "Terraform", "Ansible", "GitLab CI/CD", "GitHub Actions", "Git", "Linux",
+  "EC2", "S3", "VPC", "EKS", "RDS", "IAM", "CloudFormation",
+  "Auto Scaling", "Load Balancing", "CloudWatch", "Grafana", "Prometheus",
+  "ELK Stack", "CI/CD Pipelines", "Infrastructure as Code", "Microservices",
+  "Container Orchestration", "DevSecOps", "Monitoring & Logging", "Python",
+  "Shell Scripting", "YAML", "JSON", "Nginx", "Apache", "MySQL",
+  "Network Security", "Site Reliability Engineering", "ArgoCD", "Helm"
 ];
 
 export default function Skills() {

@@ -17,7 +17,7 @@ const projects = [
     image: "/images/projects/elite-hotel.png",
     description: "Successfully deployed and managed GrapeVault on AWS infrastructure achieving 99.99% uptime and 30% cost reduction. Automated deployments with CloudFormation and implemented robust security measures.",
     liveUrl: "",
-    githubUrl: ""
+    githubUrl: "https://github.com/MAHIRE-7/GrapeVault"
   },
   {
     title: "CET Mock Test Platform",
@@ -33,7 +33,7 @@ const projects = [
     image: "/images/projects/dropbox-clone.png",
     description: "Interactive quiz application with separated presentation, logic, and data layers. Built with REST APIs and relational database for scalable architecture using Node.js, Express, MySQL, and AWS.",
     liveUrl: "",
-    githubUrl: ""
+    githubUrl: "https://github.com/MAHIRE-7/Quizzy"
   },
   {
     title: "3-Tier Web Application Infrastructure IaC",
@@ -41,23 +41,23 @@ const projects = [
     image: "/images/projects/blog-platform.png",
     description: "Terraform configurations for three-tier application architecture on AWS. Modular and maintainable infrastructure with networking, compute, and database resources.",
     liveUrl: "",
-    githubUrl: ""
+    githubUrl: "https://github.com/MAHIRE-7/3-Tier-App-Terraform-Code"
+  },
+  {
+    title: "Cloud-Native Document Conversion Platform",
+    category: "DevSecOps Pipeline",
+    image: "/images/projects/pixabay-gallery.png",
+    description: "Cloud-native document conversion platform with complete DevSecOps CI/CD pipeline using Jenkins, Docker, Kubernetes, Trivy, SonarQube, and GitOps-based deployment via Argo CD.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/wordtopdf"
   },
   {
     title: "E-commerce Microservices on AWS EKS",
     category: "Kubernetes & Cloud-Native",
-    image: "/images/projects/pixabay-gallery.png",
+    image: "/images/projects/elite-hotel.png",
     description: "Production-ready microservices architecture demonstrating enterprise-grade patterns with Kubernetes and AWS services following cloud-native best practices.",
     liveUrl: "",
-    githubUrl: ""
-  },
-  {
-    title: "Wanderlust DevSecOps Pipeline",
-    category: "DevOps & Security",
-    image: "/images/projects/elite-hotel.png",
-    description: "MERN travel blog with comprehensive DevSecOps pipeline including automated testing, security scanning, and deployment automation using Docker and CI/CD.",
-    liveUrl: "",
-    githubUrl: ""
+    githubUrl: "https://github.com/MAHIRE-7/microservice-architecture"
   },
   {
     title: "Docker Learning Projects",
@@ -65,15 +65,31 @@ const projects = [
     image: "/images/projects/nxtcart.png",
     description: "Comprehensive collection demonstrating containerization concepts from beginner Dockerfiles to advanced multi-container setups with database integrations.",
     liveUrl: "",
-    githubUrl: ""
+    githubUrl: "https://github.com/MAHIRE-7/docker-projects"
+  },
+  {
+    title: "Wanderlust DevSecOps Pipeline",
+    category: "DevOps & Security",
+    image: "/images/projects/dropbox-clone.png",
+    description: "MERN travel blog with comprehensive DevSecOps pipeline including automated testing, security scanning, and deployment automation using Docker and CI/CD.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/Wanderlust-Mega-Project"
+  },
+  {
+    title: "Kubernetes Projects",
+    category: "Container Orchestration",
+    image: "/images/projects/blog-platform.png",
+    description: "Hands-on Kubernetes projects covering Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, and multi-node clusters using Minikube and KIND.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/Kubernetes-projects"
   },
   {
     title: "Todo List App with Amazon Q",
     category: "AWS AI Platform",
-    image: "/images/projects/dropbox-clone.png",
+    image: "/images/projects/pixabay-gallery.png",
     description: "Lightweight task management application demonstrating CRUD operations and web development fundamentals, developed using AWS Q Agentic AI Platform.",
     liveUrl: "",
-    githubUrl: ""
+    githubUrl: "https://github.com/MAHIRE-7/todo-list-app"
   }
 ];
 

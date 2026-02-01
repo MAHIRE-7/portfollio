@@ -4,7 +4,6 @@ import Skills from "@/components/sections/Skills";
 import Projects from "@/components/sections/Projects";
 import Journey from "@/components/sections/Journey";
 import Blog from "@/components/sections/Blog";
-import Testimonials from "@/components/sections/Testimonials";
 import Contact from "@/components/sections/Contact";
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Journey />
-      <Testimonials />
       <Blog />
       <Contact />
     </main>

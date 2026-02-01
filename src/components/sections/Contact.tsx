@@ -66,10 +66,10 @@ export default function Contact() {
                             <div>
                                 <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Socials</h4>
                                 <div className="flex gap-6">
-                                    <a href="https://www.linkedin.com/in/manoday-ahire/" className="hover:text-secondary transition-colors text-foreground" aria-label="LinkedIn">
+                                    <a href="https://www.linkedin.com/in/manodayahire/" className="hover:text-secondary transition-colors text-foreground" aria-label="LinkedIn">
                                         <Linkedin size={28} strokeWidth={1.5} />
                                     </a>
-                                    <a href="https://github.com/manodayahire/" className="hover:text-secondary transition-colors text-foreground" aria-label="GitHub">
+                                    <a href="https://github.com/MAHIRE-7" className="hover:text-secondary transition-colors text-foreground" aria-label="GitHub">
                                         <Github size={28} strokeWidth={1.5} />
                                     </a>
                                 </div>

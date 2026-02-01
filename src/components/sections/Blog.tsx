@@ -8,78 +8,88 @@ import Image from "next/image";
 
 const posts = [
   {
-    category: "Journey",
-    readTime: "5 min read",
-    title: "From Commerce to Code: My Transition",
-    image: "/images/insights/commerce_to_code.png",
-    excerpt: "How I pivoted from a B.Com degree to Full Stack Development in under a year. The challenges, the late nights, and the breakthroughs.",
-    content: `My transition from a B.Com graduate to a Full Stack Developer was one of the most challenging yet rewarding years of my life. 
-    
-It started with a simple curiosity about how websites work, which quickly turned into an obsession. I spent my mornings studying accounting and my nights debugging JavaScript. The late nights were tough, often questioning if I was making the right choice, but every breakthrough—the first time a database connection worked, or when a CSS layout finally looked right—fueled my passion.
-
-In under a year, through intensive self-study, bootcamps, and building projects like Elite Hotel and Nxtcart, I managed to bridge the gap between commerce and code.`
-  },
-  {
-    category: "Tech",
+    category: "DevOps",
     readTime: "8 min read",
-    title: "Understanding Microservices Architecture",
+    title: "Building CI/CD Pipelines with Jenkins & Docker",
+    image: "/images/insights/commerce_to_code.png",
+    excerpt: "How I implemented automated deployment pipelines for cloud-native applications using Jenkins, Docker, and Kubernetes orchestration.",
+    content: `Building robust CI/CD pipelines transformed how I deploy applications to production. Moving from manual deployments to automated pipelines reduced deployment time from hours to minutes.
+    
+My pipeline architecture includes:
+- **Source Control Integration**: GitHub webhooks trigger Jenkins builds automatically
+- **Automated Testing**: Unit tests, integration tests, and security scans with Trivy
+- **Containerization**: Docker builds create consistent, portable application images
+- **Orchestration**: Kubernetes deployments with rolling updates and health checks
+
+This DevSecOps approach ensures code quality, security, and reliability in every deployment.`
+  },
+  {
+    category: "Cloud Architecture",
+    readTime: "10 min read",
+    title: "Scaling Applications on AWS with Auto Scaling",
     image: "/images/insights/microservices_architecture.png",
-    excerpt: "A deep dive into how I built the Elite Hotel backend using Node.js services, Docker, and RabbitMQ for asynchronous communication.",
-    content: `When building the Elite Hotel backend, I realized that a monolithic architecture wouldn't scale for the complex booking and notification systems I envisioned. 
+    excerpt: "Deep dive into AWS Auto Scaling, Load Balancers, and VPC design for high-availability cloud infrastructure that scales with demand.",
+    content: `Designing scalable cloud infrastructure on AWS requires understanding the interplay between multiple services.
 
-I dove into Microservices, breaking down the application into specialized Node.js services. 
-- **Booking Service**: Handled reservations and availability.
-- **Payment Service**: Integrated with Stripe for secure transactions.
-- **Notification Service**: Used RabbitMQ to handle asynchronous tasks like sending confirmation emails without blocking the main flow.
+For the GrapeVault project, I implemented:
+- **Auto Scaling Groups**: Automatically adjust EC2 instances based on CPU and memory metrics
+- **Application Load Balancer**: Distributes traffic across healthy instances with health checks
+- **VPC Design**: Multi-AZ deployment with public/private subnets for security
+- **RDS Multi-AZ**: Database high availability with automatic failover
+- **CloudWatch Monitoring**: Real-time metrics and alerting for proactive scaling
 
-Docker played a crucial role in containerizing these services, ensuring consistency across environments. This journey taught me the importance of scalability and decoupling in modern backend design.`
+This architecture achieved 99.99% uptime and 30% cost reduction through intelligent resource management.`
   },
   {
-    category: "Tech",
-    readTime: "6 min read",
-    title: "Why I picked Next.js for Nxtcart",
-    image: "/images/insights/nextjs_ecommerce.png",
-    excerpt: "Comparing Create React App (CRA) vs Next.js. Why Server Side Rendering (SSR) and SEO mattered for my e-commerce project.",
-    content: `For Nxtcart, an e-commerce platform, performance and SEO were non-negotiable. 
-
-I initially considered Create React App, but the limitations of Client-Side Rendering (CSR) for an e-commerce site were evident. Search engines would have trouble indexing dynamic content, and initial load times could be slow.
-
-Switching to Next.js was a game-changer. 
-- **Server-Side Rendering (SSR)**: Allowed for instant page loads and excellent SEO.
-- **Static Site Generation (SSG)**: For product pages that don't change frequently.
-- **Image Optimization**: Automatically handled large product images.
-
-The result was a blazing-fast, SEO-optimized shopping experience that felt professional and snappy.`
-  },
-  {
-    category: "Design",
-    readTime: "4 min read",
-    title: "The Art of Minimalist UI",
-    image: "/images/insights/minimalist_ui.png",
-    excerpt: "Why 'Less is More' isn't just a trend, but a necessity for modern web applications. Exploring whitespace, typography, and functional colors.",
-    content: `Minimalism in UI design is often misunderstood as simply removing elements. In reality, it's about prioritizing what matters most to the user.
-
-When designing this portfolio, I adhered to three core principles:
-1. **Whitespace is Active**: It's not empty space; it's a design element that guides the eye and reduces cognitive load.
-2. **Typography as Interface**: Good type hierarchy eliminates the need for excessive borders and boxes.
-3. **Intentional Motion**: Animations should serve a purpose—providing feedback or continuity—rather than just being decoration.
-
-By stripping away the non-essential, we enhance the essential.`
-  },
-  {
-    category: "Tech",
+    category: "Infrastructure as Code",
     readTime: "7 min read",
-    title: "Scaling with Docker & K8s",
+    title: "Terraform: Managing Cloud Infrastructure as Code",
+    image: "/images/insights/nextjs_ecommerce.png",
+    excerpt: "Why Infrastructure as Code with Terraform revolutionized my cloud deployments. From manual provisioning to automated, version-controlled infrastructure.",
+    content: `Manual cloud resource provisioning was error-prone and time-consuming. Terraform changed everything by treating infrastructure as code.
+
+Key benefits I discovered:
+- **Version Control**: Infrastructure changes tracked in Git with proper review processes
+- **Reproducibility**: Identical environments across dev, staging, and production
+- **Modularity**: Reusable modules for VPC, security groups, and compute resources
+- **State Management**: Terraform state files ensure infrastructure consistency
+- **Collaboration**: Team members can safely make infrastructure changes
+
+My 3-tier application Terraform modules now deploy complete AWS environments in under 10 minutes.`
+  },
+  {
+    category: "Container Orchestration",
+    readTime: "9 min read",
+    title: "Kubernetes in Production: Lessons Learned",
+    image: "/images/insights/minimalist_ui.png",
+    excerpt: "From Docker containers to Kubernetes orchestration. How I deployed microservices on AWS EKS with proper monitoring and security.",
+    content: `Moving from Docker containers to Kubernetes orchestration was a significant learning curve, but essential for production-grade microservices.
+
+Key Kubernetes concepts I mastered:
+- **Deployments & ReplicaSets**: Ensuring application availability and scaling
+- **Services & Ingress**: Network routing and load balancing within the cluster
+- **ConfigMaps & Secrets**: Secure configuration management
+- **Persistent Volumes**: Stateful application data management
+- **RBAC**: Role-based access control for cluster security
+
+AWS EKS simplified cluster management while providing enterprise-grade security and monitoring capabilities.`
+  },
+  {
+    category: "Monitoring & Observability",
+    readTime: "6 min read",
+    title: "Implementing Observability with Grafana & Prometheus",
     image: "/images/insights/docker_k8s.png",
-    excerpt: "Moving from a single VPS to a container orchestration strategy. How Docker simplified my deployment pipeline.",
-    content: `As my applications grew in complexity, "it works on my machine" became a frequent blocker. Deployment was manual, error-prone, and inconsistent.
+    excerpt: "Building comprehensive monitoring solutions for cloud infrastructure. From metrics collection to alerting and incident response.",
+    content: `Effective monitoring is crucial for maintaining reliable cloud services. I implemented a complete observability stack using Prometheus and Grafana.
 
-Adopting Docker changed everything:
-- **Consistency**: The dev environment matches production bit-for-bit.
-- **Isolation**: Services like Redis, Postgres, and Node.js run in their own containers without conflict.
-- **Portability**: I can deploy to AWS, DigitalOcean, or a Raspberry Pi with the same commands.
+My monitoring strategy includes:
+- **Metrics Collection**: Prometheus scrapes application and infrastructure metrics
+- **Visualization**: Grafana dashboards for real-time system health monitoring
+- **Alerting**: Automated alerts for critical thresholds and anomalies
+- **Log Aggregation**: ELK stack for centralized log management and analysis
+- **Distributed Tracing**: Understanding request flows across microservices
 
-While Kubernetes (K8s) adds complexity, understanding the basics of container orchestration gave me the confidence to build truly cloud-native systems.`
+This observability foundation enables proactive issue detection and faster incident resolution.`
   }
 ];
 

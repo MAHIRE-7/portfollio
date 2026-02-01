@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const journey = [
+const experience = [
   {
     year: "Oct 2024 - Present",
     role: "Infrastructure Engineer Intern",
@@ -26,12 +26,30 @@ const journey = [
     role: "Cloud Engineer",
     company: "Pantechelearning",
     description: "Worked with Amazon Cloud Services, gaining foundational experience in cloud computing and AWS platform services. Built expertise in EC2, S3, VPC, and other core AWS services."
+  }
+];
+
+const volunteering = [
+  {
+    year: "Aug 2024 - Present",
+    role: "President Students Welfare & Cloud Visioners Club",
+    company: "Dr. D. Y. Patil College of Engineering",
+    description: "Leading student initiatives and academic programs at the college level. President of Cloud Visioners Club organizing cloud technology community and technical events."
   },
+  {
+    year: "Aug 2023 - May 2024",
+    role: "Treasurer Students Welfare",
+    company: "Dr. D. Y. Patil College of Engineering",
+    description: "Managed financial operations and budget planning for college activities. Coordinated student welfare programs and initiatives."
+  }
+];
+
+const education = [
   {
     year: "Nov 2022 - Jun 2025",
     role: "Bachelor of Computer Engineering",
     company: "Dr. D. Y. Patil College of Engineering",
-    description: "CGPA: 8.69. Leading student initiatives as President and organizing technical events. Strong focus on cloud technologies and DevOps practices."
+    description: "CGPA: 8.69. Strong focus on cloud technologies and DevOps practices with active leadership roles in student organizations."
   },
   {
     year: "Aug 2019 - Jul 2022",
@@ -40,6 +58,8 @@ const journey = [
     description: "Percentage: 85.26%. Built strong foundation in computer engineering fundamentals and programming concepts."
   }
 ];
+
+const allJourney = [...experience, ...volunteering, ...education];
 
 export default function Journey() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -124,7 +144,7 @@ export default function Journey() {
           </div>
 
           <div className="space-y-24 pl-0 md:pl-12">
-            {journey.map((item, index) => (
+            {allJourney.map((item, index) => (
               <div
                 key={index}
                 className="journey-item relative flex flex-col gap-4 border-l-2 md:border-l-0 border-black/10 dark:border-white/10 pl-8 md:pl-0"
