@@ -57,7 +57,11 @@ export default function Contact() {
                         <div className="space-y-8 mt-12 lg:mt-0">
                             <div>
                                 <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Email</h4>
-                                <a href="mailto:manodayahire@gmail.com" className="text-xl md:text-3xl font-bold hover:text-secondary transition-colors break-all">manodayahire@gmail.com</a>
+                                <a href="mailto:manodayahire786@gmail.com" className="text-xl md:text-3xl font-bold hover:text-secondary transition-colors break-all">manodayahire786@gmail.com</a>
+                            </div>
+                            <div>
+                                <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Phone</h4>
+                                <a href="tel:+918530058107" className="text-xl md:text-2xl font-bold hover:text-secondary transition-colors">+91 8530058107</a>
                             </div>
                             <div>
                                 <h4 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-2">Location</h4>
