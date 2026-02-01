@@ -131,10 +131,10 @@ export default function Journey() {
   }, { scope: containerRef });
 
   return (
-    <section id="journey" className="bg-background relative">
+    <section id="journey" className="bg-background relative py-20">
       <div
         ref={containerRef}
-        className="container mx-auto px-6 flex flex-col md:flex-row min-h-screen"
+        className="container mx-auto px-6 flex flex-col md:flex-row min-h-auto"
       >
         {/* Left Column - Pinned */}
         <div
