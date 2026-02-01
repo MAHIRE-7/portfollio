@@ -86,7 +86,7 @@ const projects = [
   {
     title: "Todo List App with Amazon Q",
     category: "AWS AI Platform",
-    image: "/images/projects/todo.jpega",
+    image: "/images/projects/todo.jpeg",
     description: "Lightweight task management application demonstrating CRUD operations and web development fundamentals, developed using AWS Q Agentic AI Platform.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/todo-list-app"
