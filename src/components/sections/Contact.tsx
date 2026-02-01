@@ -30,12 +30,32 @@ export default function Contact() {
         setIsSubmitting(true);
         setSubmitStatus({ type: null, message: "" });
 
-        // Simulate API call
-        setTimeout(() => {
-            setSubmitStatus({ type: "success", message: "Message Sent Successfully!" });
+        try {
+            const response = await fetch("https://formsubmit.co/manodayahire786@gmail.com", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    name: formData.name,
+                    email: formData.email,
+                    message: formData.message,
+                    _subject: "New Portfolio Contact Form Submission",
+                    _captcha: "false"
+                }),
+            });
+
+            if (response.ok) {
+                setSubmitStatus({ type: "success", message: "Message Sent Successfully!" });
+                setFormData({ name: "", email: "", message: "" });
+            } else {
+                setSubmitStatus({ type: "error", message: "Failed to send message. Please try again." });
+            }
+        } catch (error) {
+            setSubmitStatus({ type: "error", message: "Failed to send message. Please try again." });
+        } finally {
             setIsSubmitting(false);
-            setFormData({ name: "", email: "", message: "" });
-        }, 1500);
+        }
     };
 
     return (
@@ -113,7 +133,7 @@ export default function Contact() {
                                     htmlFor="message"
                                     className={`absolute left-0 transition-all duration-300 pointer-events-none uppercase text-xs font-bold tracking-widest ${formData.message || focusedField === "message" ? "-top-6 text-secondary text-[10px]" : "top-2 text-foreground/60"}`}
                                 >
-                                    Tell me about your project
+                                    Message
                                 </label>
                                 <textarea
                                     id="message"
