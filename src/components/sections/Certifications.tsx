@@ -6,9 +6,17 @@ import { ExternalLink, Award } from "lucide-react";
 
 const certifications = [
   {
+    title: "AWS Certified Solutions Architect – Associate (SAA-C03)",
+    issuer: "Amazon Web Services (AWS)",
+    date: "Aug 2026 – Aug 2028",
+    credentialId: "",
+    category: "Cloud Computing",
+    verifyUrl: "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+  },
+  {
     title: "AWS Certified Cloud Practitioner (CLF-C02)",
     issuer: "Amazon Web Services (AWS)",
-    date: "May 2025 - May 2028",
+    date: "May 2025 – Aug 2029",
     credentialId: "b720be53a3e04c708232a9957b378d9a",
     category: "Cloud Computing",
     verifyUrl: "https://cp.certmetrics.com/amazon/en/public/verify/credential/b720be53a3e04c708232a9957b378d9a"
@@ -20,6 +28,30 @@ const certifications = [
     credentialId: "3704B85AF99B7AD6",
     category: "Cloud Computing",
     verifyUrl: "https://learn.microsoft.com/api/credentials/share/en-us/Manodayanilahire-2413/3704B85AF99B7AD6?sharingId=9E58F2402D2F731C"
+  },
+  {
+    title: "Redis Certified: Redis Associate Cloud Operator",
+    issuer: "Redis",
+    date: "Aug 2026 – Aug 2028",
+    credentialId: "",
+    category: "Database & Cloud",
+    verifyUrl: "https://university.redis.com/"
+  },
+  {
+    title: "Redis Certified: Associate Software Operator",
+    issuer: "Redis",
+    date: "Aug 2026 – Aug 2028",
+    credentialId: "",
+    category: "Database & Development",
+    verifyUrl: "https://university.redis.com/"
+  },
+  {
+    title: "Linux for Cloud & DevOps Engineers",
+    issuer: "Udemy",
+    date: "Completed",
+    credentialId: "UC-803bea71-ea17-4080-9401-8104048fb1e8",
+    category: "DevOps",
+    verifyUrl: "https://ude.my/UC-803bea71-ea17-4e80-9401-8104048fb1e8"
   },
   {
     title: "GHCI 2025 - Hackathon Participation Certificate",
@@ -36,14 +68,6 @@ const certifications = [
     credentialId: "vZKnQdLmrtMDGcPzF",
     category: "Cloud Computing",
     verifyUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/AWS/kkE9HyeNcw6rwCRGw_AWS_vZKnQdLmrtMDGcPzF_1731398400.pdf"
-  },
-  {
-    title: "Linux for Cloud & DevOps Engineers",
-    issuer: "Udemy",
-    date: "Completed",
-    credentialId: "UC-803bea71-ea17-4080-9401-8104048fb1e8",
-    category: "DevOps",
-    verifyUrl: "https://ude.my/UC-803bea71-ea17-4e80-9401-8104048fb1e8"
   },
   {
     title: "AWS Educate Getting Started with Security",

@@ -11,33 +11,30 @@ gsap.registerPlugin(ScrollTrigger);
 const experience = [
   {
     year: "Oct 2025 - Present",
-    role: "Infrastructure Engineer Intern",
+    role: "Cloud Infrastructure Engineer",
+    company: "Reg-X Innovations",
+    description: "Architect, deploy, and manage AWS cloud-native infrastructure and Kubernetes clusters for financial regulatory reporting platforms. Implement CI/CD automation, monitor high-availability microservices, and ensure stringent security and compliance."
+  },
+  {
+    year: "Oct 2025 - Present",
+    role: "Cloud Infrastructure Engineer Intern",
     company: "Excellon Software",
-    description: "Manage and support production Azure cloud infrastructure for internal and client-facing applications. Work with Azure cloud, Grafana monitoring, and infrastructure automation tools. Perform daily cloud health checks and support deployment processes."
+    description: "Manage and support production Azure cloud infrastructure for internal and client-facing applications. Perform daily cloud health checks, monitoring using Azure Monitor and logging tools. Support deployment and monitoring of cloud applications ensuring high availability and performance, following SOP-driven operational processes for incident handling, access management, and security."
+  }
+];
+
+const achievements = [
+  {
+    year: "Jul 2026",
+    role: "Best Employee Award – Q2 2026",
+    company: "Reg-X Innovations",
+    description: "Received the Best Employee Award for outstanding performance and contributions as a Cloud Infrastructure Engineer. Recognized for driving cloud modernization initiatives, implementing DevOps best practices, and enhancing infrastructure reliability, security, and operational efficiency."
   },
   {
-    year: "Jun 2025 - Oct 2025",
-    role: "Jr. Cloud Engineer Intern",
-    company: "Cravita Technologies India Private Limited",
-    description: "Worked with Amazon Web Services (AWS) and DevOps practices. Gained hands-on experience in cloud infrastructure management and deployment automation processes."
-  },
-  {
-    year: "Jun 2024 - Jul 2024",
-    role: "Cloud Engineer Intern",
-    company: "Acmegrade",
-    description: "Focused on solution architecture and cloud infrastructure design. Gained experience in designing scalable cloud solutions and architectural best practices for enterprise applications."
-  },
-  {
-    year: "Jun 2024 - Jul 2024",
-    role: "Cloud Engineer Intern",
-    company: "Devskillhub Training and Consultancy",
-    description: "Enhanced skills in cloud services and cloud infrastructure development. Worked on cloud platform management and infrastructure automation projects."
-  },
-  {
-    year: "Oct 2023 - Nov 2023",
-    role: "Cloud Engineer",
-    company: "Pantechelearning",
-    description: "Worked with cloud services and gained foundational experience in cloud computing platforms. Built expertise in cloud service management and deployment strategies."
+    year: "Apr 2025",
+    role: "Best Outgoing Student of the Batch (2022–2025)",
+    company: "Dr. D. Y. Patil College of Engineering and Innovation (DYPCOEI)",
+    description: "Awarded the Best Outgoing Student of the Batch in recognition of outstanding academic performance, technical excellence, leadership, and active contributions to departmental, technical, and extracurricular initiatives."
   }
 ];
 
@@ -45,13 +42,13 @@ const volunteering = [
   {
     year: "Aug 2024 - Present",
     role: "President Students Welfare & Cloud Visioners Club",
-    company: "Dr. D. Y. Patil College of Engineering",
+    company: "Dr. D. Y. Patil College of Engineering and Innovation, Talegaon, Pune",
     description: "Leading student initiatives and academic programs at the college level. President of Cloud Visioners Club organizing cloud technology community and technical events."
   },
   {
     year: "Aug 2023 - May 2024",
     role: "Treasurer Students Welfare",
-    company: "Dr. D. Y. Patil College of Engineering",
+    company: "Dr. D. Y. Patil College of Engineering and Innovation, Talegaon, Pune",
     description: "Managed financial operations and budget planning for college activities. Coordinated student welfare programs and initiatives."
   }
 ];
@@ -60,14 +57,14 @@ const education = [
   {
     year: "Nov 2022 - Jun 2025",
     role: "Bachelor of Computer Engineering",
-    company: "Dr. D. Y. Patil College of Engineering",
-    description: "CGPA: 8.69. Strong focus on cloud technologies and DevOps practices with active leadership roles in student organizations."
+    company: "Dr. D. Y. Patil College of Engineering and Innovation, Talegaon, Pune",
+    description: "Savitribai Phule Pune University | CGPA: 8.69. Strong focus on cloud technologies, DevOps practices, and infrastructure automation."
   },
   {
     year: "Aug 2019 - Jul 2022",
     role: "Diploma in Computer Engineering",
     company: "Government Polytechnic, Nandurbar",
-    description: "Percentage: 85.26%. Built strong foundation in computer engineering fundamentals and programming concepts."
+    description: "Maharashtra State Board of Technical Education | Percentage: 85.26%. Built strong foundation in computer engineering fundamentals, programming, and system architecture."
   }
 ];
 
@@ -158,6 +155,36 @@ export default function Journey() {
             <h3 className="text-2xl font-bold uppercase tracking-tight mb-8 text-secondary">Experience</h3>
             <div className="space-y-16 pl-0 md:pl-12">
               {experience.map((item, index) => (
+                <div
+                  key={index}
+                  className="journey-item relative flex flex-col gap-4 border-l-2 md:border-l-0 border-black/10 dark:border-white/10 pl-8 md:pl-0"
+                >
+                  <div className="absolute left-[-2px] top-0 h-full w-[2px] bg-secondary md:hidden origin-top scale-y-0 transition-transform duration-1000" />
+                  <div className="relative">
+                    <div className="absolute -left-[54px] top-2 w-3 h-3 bg-background border-2 border-secondary rounded-full hidden md:block z-10 box-content shadow-[0_0_10px_var(--secondary)]" />
+                    <span className="text-secondary font-bold text-sm uppercase tracking-widest block mb-1">
+                      {item.year}
+                    </span>
+                    <h4 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2">
+                      {item.role}
+                    </h4>
+                    <p className="text-lg font-medium text-muted-foreground uppercase mb-4 tracking-wide">
+                      {item.company}
+                    </p>
+                    <p className="text-muted-foreground leading-relaxed max-w-lg">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Achievements Section */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold uppercase tracking-tight mb-8 text-secondary">Achievements & Awards</h3>
+            <div className="space-y-16 pl-0 md:pl-12">
+              {achievements.map((item, index) => (
                 <div
                   key={index}
                   className="journey-item relative flex flex-col gap-4 border-l-2 md:border-l-0 border-black/10 dark:border-white/10 pl-8 md:pl-0"

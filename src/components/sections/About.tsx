@@ -40,10 +40,10 @@ export default function About() {
               transition={{ delay: 0.3, duration: 0.8 }}
             >
               <p>
-                Cloud Infrastructure Engineer Intern at Excellon Softwares with strong hands-on experience in AWS cloud services, Linux system administration, Docker, Kubernetes, and CI/CD pipelines.
+                Cloud and DevOps Engineer with hands-on experience designing, deploying, and operating cloud-native infrastructure on AWS and Azure. Cloud Infrastructure Engineer at Reg-X Innovations with experience supporting production systems at Excellon Software.
               </p>
               <p>
-                Actively working on cloud infrastructure provisioning, containerized workloads, monitoring and logging using Grafana, Prometheus, and ELK, along with security and performance optimization. Focused on building highly available, scalable, and secure cloud environments.
+                Strong expertise in infrastructure automation using Terraform, CI/CD pipeline implementation using Jenkins and GitHub Actions, containerization with Docker, and Kubernetes orchestration. Experienced in cloud security, monitoring, and production support operations, building scalable, secure, and highly available cloud environments following industry best practices.
               </p>
             </motion.div>
 

@@ -3,14 +3,14 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  "AWS", "Azure", "Docker", "Kubernetes", "Jenkins",
-  "Terraform", "Ansible", "GitLab CI/CD", "GitHub Actions", "Git", "Linux",
-  "EC2", "S3", "VPC", "EKS", "RDS", "IAM", "CloudFormation",
-  "Auto Scaling", "Load Balancing", "CloudWatch", "Grafana", "Prometheus",
-  "ELK Stack", "CI/CD Pipelines", "Infrastructure as Code", "Microservices",
-  "Container Orchestration", "DevSecOps", "Monitoring & Logging", "Python",
-  "Shell Scripting", "YAML", "JSON", "Nginx", "Apache", "MySQL",
-  "Network Security", "Site Reliability Engineering", "ArgoCD", "Helm"
+  "AWS", "Azure", "Docker", "Kubernetes", "Terraform", "Ansible",
+  "Jenkins", "Argo CD", "GitHub Actions", "GitLab CI/CD", "Linux", "Windows",
+  "EC2", "S3", "VPC", "IAM", "RDS", "EKS", "ECS", "DynamoDB",
+  "CloudWatch", "CloudTrail", "Grafana", "Prometheus", "ELK Stack",
+  "KMS", "WAF", "IAM Policies", "Security Groups", "DevSecOps",
+  "Subnets", "Route Tables", "NAT Gateway", "Infrastructure as Code",
+  "CI/CD Pipelines", "Container Orchestration", "Shell Scripting", "Python",
+  "Microservices", "Nginx", "MySQL", "Redis", "Helm"
 ];
 
 export default function Skills() {

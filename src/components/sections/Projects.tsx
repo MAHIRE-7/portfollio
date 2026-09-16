@@ -12,28 +12,36 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
+    title: "PingsNest",
+    category: "API Observability & Monitoring",
+    image: "/images/projects/pingsnest.jpg",
+    description: "Cloud observability and reliability platform for APIs and microservices. Features real-time latency telemetry, synthetic health probes, automated uptime alerting, and automated containerized deployment on AWS.",
+    liveUrl: "https://pingsnest.com",
+    githubUrl: "https://github.com/MAHIRE-7/pingsnest"
+  },
+  {
+    title: "GrapeVault on AWS",
+    category: "Cloud Infrastructure & IaC",
+    image: "/images/projects/gvaws.png",
+    description: "Designed and deployed secure AWS cloud infrastructure using EC2, S3, VPC, and IAM. Implemented Infrastructure as Code using Terraform to automate provisioning, configured KMS encryption, IAM roles, security groups, and CloudWatch monitoring.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/GrapeVault"
+  },
+  {
+    title: "Wanderlust – DevSecOps",
+    category: "AWS | CI/CD | Security",
+    image: "/images/projects/wanderlust.png",
+    description: "Deployed cloud-based application on AWS using EC2, S3, IAM, and VPC following cloud architecture best practices. Implemented CI/CD pipeline using Jenkins with automated DevSecOps security scans, dependency scanning, and quality validation.",
+    liveUrl: "",
+    githubUrl: "https://github.com/MAHIRE-7/Wanderlust-Mega-Project"
+  },
+  {
     title: "Cloud-Native Document Conversion Platform",
     category: "DevSecOps Pipeline",
     image: "/images/projects/devsecops.jpeg",
     description: "Cloud-native document conversion platform with complete DevSecOps CI/CD pipeline using Jenkins, Docker, Kubernetes, Trivy, SonarQube, and GitOps-based deployment via Argo CD.",
     liveUrl: "",
     githubUrl: "https://github.com/MAHIRE-7/wordtopdf"
-  },
-  {
-    title: "Wanderlust DevSecOps Pipeline",
-    category: "DevOps & Security",
-    image: "/images/projects/wanderlust.png",
-    description: "MERN travel blog with comprehensive DevSecOps pipeline including automated testing, security scanning, and deployment automation using Docker and CI/CD.",
-    liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/Wanderlust-Mega-Project"
-  },
-  {
-    title: "GrapeVault on AWS",
-    category: "Cloud Infrastructure",
-    image: "/images/projects/gvaws.png",
-    description: "Successfully deployed and managed GrapeVault on AWS infrastructure achieving 99.99% uptime and 30% cost reduction. Automated deployments with CloudFormation and implemented robust security measures.",
-    liveUrl: "",
-    githubUrl: "https://github.com/MAHIRE-7/GrapeVault"
   },
   {
     title: "CET Mock Test Platform",
